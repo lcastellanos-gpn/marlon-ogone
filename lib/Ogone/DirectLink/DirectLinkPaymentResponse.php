@@ -32,6 +32,8 @@ class DirectLinkPaymentResponse extends AbstractPaymentResponse
             // filter request for Ogone parameters
             $this->parameters = $this->filterRequestParameters($attributesArray);
 
+            $this->parameters['HTML_ANSWER'] = (string) $xmlResponse->HTML_ANSWER[0];
+
         } else {
             throw new InvalidArgumentException("No valid XML-string given");
         }
