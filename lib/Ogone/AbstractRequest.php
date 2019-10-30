@@ -50,10 +50,10 @@ abstract class AbstractRequest implements Request
         // https://payment-services.ingenico.com/int/en/ogone/support/guides/integration%20guides/additional-data/delivery-and-invoicing-data
         'civility', 'cuid', 'ecom_billto_postal_city', 'ecom_billto_postal_countrycode',
         'ecom_billto_postal_name_first', 'ecom_billto_postal_name_last', 'ecom_billto_postal_postalcode',
-        'ecom_billto_postal_street_line1', 'ecom_billto_postal_street_number', 'ecom_shipto_dob',
+        'ecom_billto_postal_street_line1', 'ecom_billto_postal_street_line2', 'ecom_billto_postal_street_number', 'ecom_shipto_dob',
         'ecom_shipto_online_email', 'ecom_shipto_postal_city', 'ecom_shipto_postal_countrycode',
         'ecom_shipto_postal_name_first', 'ecom_shipto_postal_name_last', 'ecom_shipto_postal_name_prefix',
-        'ecom_shipto_postal_postalcode', 'ecom_shipto_postal_state', 'ecom_shipto_postal_street_line1',
+        'ecom_shipto_postal_postalcode', 'ecom_shipto_postal_state', 'ecom_shipto_postal_street_line1', 'ecom_shipto_postal_street_line2',
         'ecom_shipto_postal_street_number', 'ordershipcost', 'ordershipmeth', 'ordershiptaxcode',
         // Optional integration data: Order data ("ITEM" parameters).
         // https://payment-services.ingenico.com/int/en/ogone/support/guides/integration%20guides/additional-data/order-data
